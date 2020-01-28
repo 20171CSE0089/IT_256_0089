@@ -1,2 +1,4 @@
 ﻿This is my first lab session on basics of HTML.
 now we are linking HTML branch to master branch
+
+there's a conflict occurred
