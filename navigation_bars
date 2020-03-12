@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>
+			Navigation Bars
+		</title>
+		<style>
+			
+			ul.a{
+				list-style-type:none;
+				margin:0;
+				padding:0;
+			}
+			ul.b{
+				list-style-type:circle;
+				
+			}
+			ul.c{
+				list-style-type:square;
+				
+			}
+			ol.d{
+				list-style-type:lower-alpha;
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		</br>
+		<ul class="a">
+			<li><a href="" target="_blank">Home</a></li>
+			<li><a href="" target="_blank">News</a></li>
+			<li><a href="" target="_blank">Contacts</a></li>
+			<li><a href="" target="_blank">About</a></li>
+			<li><a href="" target="_blank">Retuen</a></li>
+		</ul>
+
+</br>
+		<ul class="b">
+			<li><a href="" target="_blank">Home</a></li>
+			<li><a href="" target="_blank">News</a></li>
+			<li><a href="" target="_blank">Contacts</a></li>
+			<li><a href="" target="_blank">About</a></li>
+			<li><a href="" target="_blank">Retuen</a></li>
+		</ul>
+
+</br>
+		<ul class="c">
+			<li><a href="" target="_blank">Home</a></li>
+			<li><a href="" target="_blank">News</a></li>
+			<li><a href="" target="_blank">Contacts</a></li>
+			<li><a href="" target="_blank">About</a></li>
+			<li><a href="" target="_blank">Retuen</a></li>
+		</ul>
+
+</br>
+		<ol class="d">
+			<li><a href="" target="_blank">Home</a></li>
+			<li><a href="" target="_blank">News</a></li>
+			<li><a href="" target="_blank">Contacts</a></li>
+			<li><a href="" target="_blank">About</a></li>
+			<li><a href="" target="_blank">Retuen</a></li>
+		</ul>
+
+
+		<ol style=list-style-type:upper-roman>
+			<li><a href="" target="_blank">Home</a></li>
+			<li><a href="" target="_blank">News</a></li>
+			<li><a href="" target="_blank">Contacts</a></li>
+			<li><a href="" target="_blank">About</a></li>
+			<li><a href="" target="_blank">Retuen</a></li>
+		</ol>			
+
+	
+		<ol style=list-style-image:url("index.jpeg")>
+			<li><a href="" target="_blank">Home</a></li>
+			<li><a href="" target="_blank">News</a></li>
+			<li><a href="" target="_blank">Contacts</a></li>
+			<li><a href="" target="_blank">About</a></li>
+			<li><a href="" target="_blank">Retuen</a></li>
+		</ol>			
+
+	</body>
+</html>
