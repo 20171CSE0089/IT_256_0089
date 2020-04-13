@@ -1,0 +1,29 @@
+<!--write a simple javscript to read and print your name using prompt dialog box-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>
+			Javascript 1 
+		</title>
+	</head>
+
+	<body onload="func()">
+
+	<script>
+		function func(){
+			let name = prompt("Enter name");
+
+			if(name!="" && name!=null)
+				document.write("Your name : "+name);
+			else
+				func();
+		}
+	</script>
+	
+	</body>
+</html>
