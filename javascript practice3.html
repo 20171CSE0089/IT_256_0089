@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<title>
+			Practice Session
+		</title>
+	</head>
+		
+	<script type="text/javascript">
+		var a=10;
+		var b="String";
+		var linebreak="<br/>";
+
+		result=(typeof b=="string"?"B is String":"B is Numeric");
+		document.write("Result=>");
+		document.write(result);
+		document.write(linebreak);
+
+		result=(typeof a=="string"?"A is String":"A is Numeric");
+		document.write("Result=>");		
+		document.write(result);
+		document.write(linebreak);
+
+		var count=0;
+		
+		document.write("Starting Loop"+"<br/>");
+		
+		do
+		{
+			document.write("Current Count:"+count+"<br/>");
+			count++;
+		}while(count<5);
+
+		document.write("Loop Stopped!");
+
+		function sayHello()
+		{
+			document.write("Hello there!");
+		}
+
+		function sayhello(name, age)
+		{
+			document.write(name+" is "+age+" years old.");
+		}
+
+		function over()
+		{
+			document.write("Mouse Over");
+		}
+	
+		function out()
+		{
+			document.write("Mouse Out");
+		}
+
+		function Warn()
+		{
+			alert("This is a warning message!");
+		}
+	</script>
+	<body>
+		<p> Clicking the following button to call the function</p>
+
+		<form>
+			<input type="button" onclick="sayHello()" value="Say Hello">
+		</form>
+
+		<p> Use the different text in write method and then try...</p>
+		
+		<hr></hr>
+
+		<p>Click the following button to call the function</p>
+
+		<form>
+			<input type="button" onclick="sayhello('Zara ', 7)" value="Say Hello">
+		</form>
+
+		<hr></hr>
+
+		<p> This example calls a function which performs a calculation, and returns the result</p>
+		<p id="demo"></p>
+			<script>
+				function myFunction(a, b)
+				{
+					return a*b;
+				}
+				document.getElementById("demo").innerHTML=myFunction(4,3);
+			</script>
+
+		<hr></hr>
+		
+		<p> Bring your mouse inside the division to see the result. </p>
+
+		<div onmouseover="over()" onmouseout="out()">
+		<h2> This is inside the divison. </h2>
+
+		<hr></hr>
+
+	</body>
+</html>		

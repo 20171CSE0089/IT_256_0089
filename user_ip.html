@@ -1,0 +1,25 @@
+<!--write a javascrpt code to read and print 10 number from user using prompt-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Javascript 3
+	</title>
+	</head>
+	
+	<body onload="func()">
+	<script>
+		function func()
+		{
+			var array=[],num;
+			for(let i=0;i<10;i++)
+			array[i]=prompt("Enter "+(i+1)+" number");
+			document.write("Entered array of numbers is : "+array);
+		}
+	</script>
+	</body>
+</html>
